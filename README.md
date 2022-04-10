@@ -1,2 +1,5 @@
-# BetterDiscordThemes My better discord themes !
-# ⚫ JKBetterBlack - Enjoy better but with a better dark ! - Download: NOT NOW
+# BetterDiscordThemes 
+My better discord themes !
+# ⚫ JKBetterBlack 
+- Enjoy discord but with a better dark ! 
+- Download: NOT NOW
