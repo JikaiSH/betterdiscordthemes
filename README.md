@@ -1,5 +1,5 @@
 # BetterDiscordThemes 
 My better discord themes !
-# ⚫ JKBetterDark
+# 🟣 JKPurpleDark
 - Enjoy discord but with a better dark ! 
 - Download: NOT NOW
