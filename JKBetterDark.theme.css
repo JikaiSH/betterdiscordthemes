@@ -11,11 +11,12 @@
  :root {
 	--scrollbar-auto-track: --background-secondary;
 }
-
+/* Main Color */
 .theme-dark {
 	--background-primary: #23182b;
-	--background-secondary: rgb(43, 28, 51);
+	--background-secondary: rgb(49, 26, 63);
 	--background-secondary-alt: rgb(53, 29, 68);
+	--background-floating: rgb(25, 13, 32);
 }
 
 .scrollableContainer-15eg7h {
@@ -45,3 +46,32 @@ background-color: var(--background-primary);
 }
 
 .contentRegionScroller-2_GT_N {background-color: var(--background-primary);}
+
+.container-2McqkF {
+	background: var(--background-secondary) !important;
+}
+
+.searchBar-2aylmZ {background: var(--background-secondary);}
+.container-2oNtJn {background: var(--background-secondary);}
+.medium-2NClDM {background: var(--background-secondary);}
+
+.input-3r5zZY {
+	background-color: var(--background-primary);
+	border: 1px solid var(--background-secondary-alt);
+}
+
+.contentDefault-17ewQQ {	background-color: var(--background-primary);}
+.content-vQY7Mf {	background-color: var(--background-primary);}
+.selected-1Drb7Z {
+	background: var(--background-primary);
+}
+
+#app-mount .body-2wLx-E,
+#app-mount .footer-1N3bR3 {
+	background-color: var(--background-primary);
+}
+
+.tile-2TcwiO {
+	background-color: var(--background-primary) !important;
+	border: 1px solid var(--background-primary);
+}
