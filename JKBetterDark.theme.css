@@ -8,7 +8,11 @@
  * @invite 52Nc5Qry4t
  */
 
- :root {
+/* IMPORT YOU CAN DELETE WITHOUT PROBLEME */
+@import url("https://lavender-discord.github.io/Lavender/modules/addons/settings-icons.css");
+
+/* MAIN COD */
+:root {
 	--more-dark: rgb(32, 20, 43);
 	--some-dark: rgb(46, 23, 65);
 	--background-modifier-hover: var(--more-dark);
