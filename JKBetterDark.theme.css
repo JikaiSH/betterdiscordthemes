@@ -8,8 +8,40 @@
  * @invite 52Nc5Qry4t
  */
 
+ :root {
+	--scrollbar-auto-track: --background-secondary;
+}
 
-/* FOR THE MOMENT I DONT HAVE THE MOTIVATION FOR DO A BETTERDISCORD THEME BUT ONE DAY I PROMESS ;)*/
+.theme-dark {
+	--background-primary: #23182b;
+	--background-secondary: rgb(43, 28, 51);
+	--background-secondary-alt: rgb(53, 29, 68);
+}
 
+.scrollableContainer-15eg7h {
+	border-radius: 25px;
+	border: 1px solid rgb(43, 10, 65);
+	background-color: rgb(65, 32, 87);
+}
 
-/* SETTINGS */
+.container-x8Y1ix {
+	background-color: rgb(43, 10, 65);
+}
+
+#app-mount .scroller-3X7KbA {
+	background-color: rgb(25, 15, 32);
+}
+
+.scroller-1bVxF5 {	background-color: rgb(25, 15, 32);
+border-radius: 10px;}
+
+.focused-3qFvc8 { border-radius: 10px;}
+
+.colorDefault-CDqZdO.focused-3qFvc8 { 	background-color: rgb(49, 16, 77);
+} 
+
+.tabBody-2dgbAs {
+background-color: var(--background-primary);
+}
+
+.contentRegionScroller-2_GT_N {background-color: var(--background-primary);}
