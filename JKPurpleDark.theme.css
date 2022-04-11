@@ -18,11 +18,12 @@
 	--some-light: #8A4DB2;
 	--more-dark: rgb(32, 20, 43);
 	--some-dark: rgb(46, 23, 65);
+	--background-modifier-active: var(--background-primary);
 	--button-secondary-background: var(--some-light);
 	--button-secondary-background-hover: var(--litle-light);
 	--button-secondary-background-active: var(--more-light);
 	--background-modifier-hover: var(--more-dark);
-	--background-modifier-selected: var(--more-dark);
+	--background-modifier-selected: var(--more-dark) !important;
     --scrollbar-auto-track: --background-secondary;
    --background-tertiary: var(--some-dark);
 }
@@ -122,9 +123,19 @@ background-color: var(--background-primary);
 }
 
 .theme-dark .root-g14mjS {
-	background-color: var(--more-dark)
+	background-color: var(--more-dark);
 }
 
 .side-2ur1Qk .themed-2-lozF.item-3XjbnG:active:not(.disabled-1nofHP), .topPill-3DJJNV .themed-2-lozF.item-3XjbnG:active:not(.disabled-1nofHP) {
 		background-color: var(--some-light);
+}
+
+.ChannelDms-channelmembers-wrap .ChannelDms-channelmembers-header {
+	background: var(--more-dark) !important;
+	border-bottom: var(--some-dark) !important;
+	--background-modifier-selected: var(--some-light) !important;
+}
+
+.theme-dark .default-1Tkeeg {
+	background-color: var(--more-dark)
 }
