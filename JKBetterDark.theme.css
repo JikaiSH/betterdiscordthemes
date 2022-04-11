@@ -1,5 +1,5 @@
 /**
- * @name JKBetterBlack
+ * @name JKPurpleDark
  * @author JikaiSH
  * @version 0.1.0
  * @description A plugin for your eye at the night !
@@ -13,8 +13,14 @@
 
 /* MAIN COD */
 :root {
+	--more-light: #C67DF5;
+	--litle-light: #5B2878;
+	--some-light: #8A4DB2;
 	--more-dark: rgb(32, 20, 43);
 	--some-dark: rgb(46, 23, 65);
+	--button-secondary-background: var(--some-light);
+	--button-secondary-background-hover: var(--litle-light);
+	--button-secondary-background-active: var(--more-light);
 	--background-modifier-hover: var(--more-dark);
 	--background-modifier-selected: var(--more-dark);
     --scrollbar-auto-track: --background-secondary;
@@ -88,3 +94,37 @@ background-color: var(--background-primary);
 }
 
 .content-1gYQeQ { background-color: rgb(43, 21, 48);}
+
+.autocompleteInner-y1mjDl autocompleteInner-2tOQrf {
+	background-color: var(--background-primary);
+}
+
+#app-mount .pageWrapper-2PwDoS {
+	background-color: var(--background-primary);
+}
+.categoryItem-1QIroW.selectedCategoryItem-FHKU_o .itemInner-gPkiWb {
+	background-color: var(--background-secondary);
+}
+.search-25t1e9 .searchBox-31Zv9h {
+	background-color: var(--background-secondary);
+}
+
+.autocomplete-3NRXG8 {
+	background-color: var(--more-dark) !important;
+}
+
+.theme-dark .selected-3H3-RC {
+	background-color: var(--some-light);
+}
+
+.fieldButton-14lHvK button-f2h6uQ lookFilled-yCfaCM colorPrimary-2AuQVo sizeSmall-wU2dO- grow-2sR_-F {
+		background-color: var(--some-light);
+}
+
+.theme-dark .root-g14mjS {
+	background-color: var(--more-dark)
+}
+
+.side-2ur1Qk .themed-2-lozF.item-3XjbnG:active:not(.disabled-1nofHP), .topPill-3DJJNV .themed-2-lozF.item-3XjbnG:active:not(.disabled-1nofHP) {
+		background-color: var(--some-light);
+}
