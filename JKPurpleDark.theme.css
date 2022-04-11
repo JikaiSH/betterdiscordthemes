@@ -1,20 +1,26 @@
 /**
  * @name JKPurpleDark
  * @author JikaiSH
- * @version 0.1.0
+ * @version 0.2.0
  * @description A plugin for your eye at the night !
  * @source https://github.com/JikaiSH/betterdiscordthemes
  * @website https://jikaish.tk
  * @invite 52Nc5Qry4t
  */
+ 
 /* DO NOT DELETE THIS IMPORT */
-@import url("https://raw.githubusercontent.com/JikaiSH/betterdiscordthemes/main/src/source.css");
+@import url("https://jikaish.github.io/betterdiscordthemes/src/source.css");
 
 /* IMPORT YOU CAN DELETE WITHOUT PROBLEME */
 @import url("https://lavender-discord.github.io/Lavender/modules/addons/settings-icons.css");
 
 /* MAIN COD */
+/* SOURCE FOR IT WORK */
 :root {
+	--background-primary: #2f1d3b;
+	--background-secondary: rgb(41, 21, 53);
+	--background-secondary-alt: rgb(53, 29, 68);
+	--background-floating: rgb(25, 13, 32);
 	--more-light: #C67DF5;
 	--litle-light: #5B2878;
 	--some-light: #8A4DB2;
@@ -29,127 +35,3 @@
     --scrollbar-auto-track: --background-secondary;
    --background-tertiary: var(--some-dark);
 }
-
-
-/* Main Color */
-.theme-dark {
-	--background-primary: #2f1d3b;
-	--background-secondary: rgb(41, 21, 53);
-	--background-secondary-alt: rgb(53, 29, 68);
-	--background-floating: rgb(25, 13, 32);
-}
-
-.scrollableContainer-15eg7h {
-	border-radius: 25px;
-	border: 1px solid rgb(43, 10, 65);
-	background-color: rgb(65, 32, 87);
-}
-
-.container-x8Y1ix {
-	background-color: rgb(43, 10, 65);
-}
-
-#app-mount .scroller-3X7KbA {
-	background-color: rgb(25, 15, 32);
-}
-
-.scroller-1bVxF5 {	background-color: rgb(25, 15, 32);
-border-radius: 10px;}
-
-.focused-3qFvc8 { border-radius: 10px;}
-
-.colorDefault-CDqZdO.focused-3qFvc8 { 	background-color: rgb(49, 16, 77);
-} 
-
-.tabBody-2dgbAs {
-background-color: var(--background-primary);
-}
-
-.contentRegionScroller-2_GT_N {background-color: var(--background-primary);}
-
-.container-2McqkF {
-	background: var(--background-secondary) !important;
-}
-
-.searchBar-2aylmZ {background: var(--background-secondary);}
-.container-2oNtJn {background: var(--background-secondary);}
-.medium-2NClDM {background: var(--background-secondary);}
-
-.input-3r5zZY {
-	background-color: var(--background-primary);
-	border: 1px solid var(--background-secondary-alt);
-}
-
-.contentDefault-17ewQQ {	background-color: var(--background-primary);}
-.content-vQY7Mf {	background-color: var(--background-primary);}
-.selected-1Drb7Z {
-	background: var(--background-primary);
-}
-
-#app-mount .body-2wLx-E,
-#app-mount .footer-1N3bR3 {
-	background-color: var(--background-primary);
-}
-
-.tile-2TcwiO {
-	background-color: var(--background-primary) !important;
-	border: 1px solid var(--background-primary);
-}
-
-.content-1gYQeQ { background-color: rgb(43, 21, 48);}
-
-.autocompleteInner-y1mjDl autocompleteInner-2tOQrf {
-	background-color: var(--background-primary);
-}
-
-#app-mount .pageWrapper-2PwDoS {
-	background-color: var(--background-primary);
-}
-.categoryItem-1QIroW.selectedCategoryItem-FHKU_o .itemInner-gPkiWb {
-	background-color: var(--background-secondary);
-}
-.search-25t1e9 .searchBox-31Zv9h {
-	background-color: var(--background-secondary);
-}
-
-.autocomplete-3NRXG8 {
-	background-color: var(--more-dark) !important;
-}
-
-.theme-dark .selected-3H3-RC {
-	background-color: var(--some-light);
-}
-
-.fieldButton-14lHvK button-f2h6uQ lookFilled-yCfaCM colorPrimary-2AuQVo sizeSmall-wU2dO- grow-2sR_-F {
-		background-color: var(--some-light);
-}
-
-.theme-dark .root-g14mjS {
-	background-color: var(--more-dark);
-}
-
-.side-2ur1Qk .themed-2-lozF.item-3XjbnG:active:not(.disabled-1nofHP), .topPill-3DJJNV .themed-2-lozF.item-3XjbnG:active:not(.disabled-1nofHP) {
-		background-color: var(--some-light);
-}
-
-.ChannelDms-channelmembers-wrap .ChannelDms-channelmembers-header {
-	background: var(--more-dark) !important;
-	border-bottom: var(--some-dark) !important;
-	--background-modifier-selected: var(--some-light) !important;
-}
-
-.theme-dark .default-1Tkeeg {
-	background-color: var(--more-dark)
-}
-
-.jumpToPresentBar-1cEnH0 {
-	visibility: hidden;
-	bottom: 15px;
-  }
-  .jumpToPresentBar-1cEnH0 .barButtonIcon-bMvzp2 {
-	visibility: visible;
-	padding: 12px;
-	background-color: var(--some-light);
-	border-radius: 50%;
-	margin-bottom: 2em;
-  }
