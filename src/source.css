@@ -145,3 +145,8 @@ background-color: var(--background-primary);
 	border-radius: 50%;
 	margin-bottom: 2em;
   }
+
+  /* support for my server count plugin ! */
+  .guildSeparator-a4uisj {
+	background-color: var(--some-dark);
+}
