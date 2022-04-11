@@ -181,7 +181,13 @@ button.button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeSmall-wU2dO-.grow-2
 	background: var(--button-neutral-active)
 }
 
-  /* support for my server count plugin ! */
+/* When click on a server, hover or unread messages */
+
+.scroller-3X7KbA  .pill-2RsI5Q .item-2LIpTv{
+    background-color: var(--more-light);
+}
+
+/* support for my server count plugin ! */
   .guildSeparator-a4uisj {
 	background-color: var(--some-dark);
 }
