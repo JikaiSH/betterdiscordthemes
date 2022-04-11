@@ -10,13 +10,19 @@
 	--more-dark: rgb(32, 20, 43);
 	--some-dark: rgb(46, 23, 65);
 	--background-modifier-active: var(--background-primary);
+	--button-neutral-active: #7D0C7B;
+	--button-neutral-hover: #7D0C7B;
+	--button-neutral: #B01DAA;
 	--button-secondary-background: var(--some-light);
 	--button-secondary-background-hover: var(--litle-light);
 	--button-secondary-background-active: var(--more-light);
 	--background-modifier-hover: var(--more-dark);
 	--background-modifier-selected: var(--more-dark) !important;
     --scrollbar-auto-track: --background-secondary;
-   --background-tertiary: var(--some-dark);
+    --background-tertiary: var(--some-dark);
+	--background-mentioned: var(--more-dark);
+	--background-mentioned-hover: var(--background-secondary);
+	--mentioned-bar: #F1C2EF;
 }
 
 /* Main Color */
@@ -145,6 +151,19 @@ background-color: var(--background-primary);
 	border-radius: 50%;
 	margin-bottom: 2em;
   }
+
+ .userPopout-2j1gM4 {
+	background-color: var(--background-primary)
+}
+
+.bodyInnerWrapper-2bQs1k {
+	background-color: var(--background-secondary);
+	border-radius: 10px
+}
+
+.automodMessage-265YwJ:before, .ephemeral-2nDdnn:before, .mentioned-Tre-dv:before, .replying-eZ7p5z:before {
+	background-color: var(--mentioned-bar)
+}
 
   /* Blue button now better */
 button.button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeSmall-wU2dO-.grow-2sR_-F {
