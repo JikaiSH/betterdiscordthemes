@@ -181,8 +181,12 @@ button.button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeSmall-wU2dO-.grow-2
 	background: var(--button-neutral-active)
 }
 
-/* When click on a server, hover or unread messages */
+/* Footer */
+.theme-dark .footer-31IekZ {
+	background-color: var(--background-secondary);
+}
 
+/* When click on a server, hover or unread messages */
 .scroller-3X7KbA  .pill-2RsI5Q .item-2LIpTv{
     background-color: var(--more-light);
 }
@@ -193,7 +197,6 @@ button.button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeSmall-wU2dO-.grow-2
 }
 
 /* Purple when selected */
-
 .option-1QI4c9:hover,
 .lookFilled-1Gx00P.colorBrand-3pXr91,
 .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
@@ -214,5 +217,4 @@ button.button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeSmall-wU2dO-.grow-2
 }
 
 /* CHANGE HOMEICON IMAGE */
-
 .homeIcon-r0w4ny{width:100%;height:100%;background:var(--home-icon) var(--home-position)/var(--home-size) no-repeat}.homeIcon-r0w4ny>path{display:none}.icon-3AqZ2e{background-color:rgba(0,0,0,.3)}.pill-2RsI5Q{overflow:hidden}.item-2LIpTv{width:12px;margin-left:-6px;border-radius:20px;background:var(--some-dark);box-shadow:0 0 20px -1px var(--some-dark)};
