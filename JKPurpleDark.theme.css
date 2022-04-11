@@ -27,6 +27,9 @@
 	--more-dark: rgb(32, 20, 43);
 	--some-dark: rgb(46, 23, 65);
 	--background-modifier-active: var(--background-primary);
+	--button-neutral-active: #7D0C7B;
+	--button-neutral-hover: #7D0C7B;
+	--button-neutral: #B01DAA;
 	--button-secondary-background: var(--some-light);
 	--button-secondary-background-hover: var(--litle-light);
 	--button-secondary-background-active: var(--more-light);
