@@ -136,6 +136,10 @@ background-color: var(--background-primary);
 	--background-modifier-selected: var(--some-light) !important;
 }
 
+.item-3XjbnG.themed-2-lozF:hover {
+	background: transparent !important;
+}
+
 .theme-dark .default-1Tkeeg {
 	background-color: var(--more-dark)
 }
