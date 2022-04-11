@@ -26,6 +26,7 @@
 	--background-mentioned: var(--more-dark);
 	--background-mentioned-hover: var(--background-secondary);
 	--mentioned-bar: #F1C2EF;
+	--brand-experiment-600: var(--litle-light);
 }
 
 /* Main Color */
