@@ -146,6 +146,19 @@ background-color: var(--background-primary);
 	margin-bottom: 2em;
   }
 
+  /* Blue button now better */
+button.button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeSmall-wU2dO-.grow-2sR_-F {
+	background: var(--button-neutral);
+}
+
+button.button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeSmall-wU2dO-.grow-2sR_-F:hover {
+	background: var(--button-neutral-hover);
+}
+
+button.button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeSmall-wU2dO-.grow-2sR_-F:active {
+	background: var(--button-neutral-active)
+}
+
   /* support for my server count plugin ! */
   .guildSeparator-a4uisj {
 	background-color: var(--some-dark);
