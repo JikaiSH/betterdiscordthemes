@@ -2,4 +2,4 @@
 My better discord themes !
 # 🟣 JKPurpleDark
 - Enjoy discord but dark purple
-- Download: NOT NOW
+- Download [here](https://raw.githubusercontent.com/JikaiSH/betterdiscordthemes/main/JKPurpleDark.theme.css)
