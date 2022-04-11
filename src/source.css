@@ -1,5 +1,8 @@
 /* SOURCE FOR IT WORK */
 :root {
+	--home-icon: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.clipartbest.com%2Fcliparts%2F4Tb%2FKEA%2F4TbKEA97c.png&f=1&nofb=1");
+	--home-position: center; /* home button icon position*/
+	--home-size: 40px; /* home button icon size*/
 	--background-primary: #2f1d3b;
 	--background-secondary: rgb(41, 21, 53);
 	--background-secondary-alt: rgb(53, 29, 68);
@@ -182,3 +185,28 @@ button.button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeSmall-wU2dO-.grow-2
   .guildSeparator-a4uisj {
 	background-color: var(--some-dark);
 }
+
+/* Purple when selected */
+
+.option-1QI4c9:hover,
+.lookFilled-1Gx00P.colorBrand-3pXr91,
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
+.wrapper-3kah-n:hover .childWrapper-1j_1ub,
+.barFill-2Bh7CX,
+.colorDefault-CDqZdO.focused-3qFvc8,
+.headerPlaying-j0WQBV,
+.topSectionPlaying-1J5E4n,
+.lookFilled-yCfaCM.colorGreen-29iAKY,
+.lookFilled-1Gx00P.colorGreen-29iAKY,
+#app-mount .wrapper-1ZcZW-:hover,
+.circleIconButton-1VxDrg.selected-2r1Hvo,
+.newMessagesBar-1hF-9G,
+.questionMark-3V9mGJ,
+.bd-button,
+.bd-addon-views .bd-view-button.selected {
+	background-color: var(--some-light);
+}
+
+/* CHANGE HOMEICON IMAGE */
+
+.homeIcon-r0w4ny{width:100%;height:100%;background:var(--home-icon) var(--home-position)/var(--home-size) no-repeat}.homeIcon-r0w4ny>path{display:none}.icon-3AqZ2e{background-color:rgba(0,0,0,.3)}.pill-2RsI5Q{overflow:hidden}.item-2LIpTv{width:12px;margin-left:-6px;border-radius:20px;background:var(--some-dark);box-shadow:0 0 20px -1px var(--some-dark)};
