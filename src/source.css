@@ -31,6 +31,7 @@
 	--mentioned-bar: #F1C2EF;
 	--brand-experiment-600: var(--litle-light);
 	--brand-experiment: var(--more-light);
+	--input-background: var(--background-primary);
 }
 
 /* Main Color */
