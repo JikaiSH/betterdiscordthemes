@@ -350,3 +350,7 @@ button.button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeSmall-wU2dO-.grow-2
 ::selection {
 	background-color: var(--some-light);
 }
+
+.colorBrand-I6CyqQ:hover {
+	background-color: var(--some-light) !important;
+}
