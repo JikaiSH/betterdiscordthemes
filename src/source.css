@@ -16,6 +16,9 @@
 	--button-neutral-active: #7D0C7B;
 	--button-neutral-hover: #7D0C7B;
 	--button-neutral: #B01DAA;
+	--button-positive-background: var(--more-light);
+	--button-positive-background-hover: var(--some-light);
+	--button-positive-background-active: var(--litle-light);
 	--button-secondary-background: var(--some-light);
 	--button-secondary-background-hover: var(--litle-light);
 	--button-secondary-background-active: var(--more-light);
@@ -27,6 +30,7 @@
 	--background-mentioned-hover: var(--background-secondary);
 	--mentioned-bar: #F1C2EF;
 	--brand-experiment-600: var(--litle-light);
+	--brand-experiment: var(--more-light);
 }
 
 /* Main Color */
@@ -136,10 +140,6 @@ background-color: var(--background-primary);
 	--background-modifier-selected: var(--some-light) !important;
 }
 
-.item-3XjbnG.themed-2-lozF:hover {
-	background: transparent !important;
-}
-
 .theme-dark .default-1Tkeeg {
 	background-color: var(--more-dark)
 }
@@ -219,3 +219,96 @@ button.button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeSmall-wU2dO-.grow-2
 
 /* CHANGE HOMEICON IMAGE */
 .homeIcon-r0w4ny{width:100%;height:100%;background:var(--home-icon) var(--home-position)/var(--home-size) no-repeat}.homeIcon-r0w4ny>path{display:none}.icon-3AqZ2e{background-color:rgba(0,0,0,.3)}.pill-2RsI5Q{overflow:hidden}.item-2LIpTv{width:12px;margin-left:-6px;border-radius:20px;background:var(--some-dark);box-shadow:0 0 20px -1px var(--some-dark)};
+
+/* Server Boost, button, better discord settings, boxs and billing history */
+
+.theme-dark .tierBody-1d3UiS {
+	background-color: var(--more-dark);
+}
+
+.theme-dark .tierHeaderLocked-3ItHYn {
+	background-color: var(--more-dark);
+}
+
+.perksModalContentWrapper-3RHugb {
+	background-color: var(--background-secondary);
+}
+
+.theme-dark .tierBody-3ju-rc {
+	background-color: var(--background-primary);
+}
+
+.theme-dark .perk-19D_HN {
+	background-color: var(--more-dark);
+}
+
+.theme-dark .barBackground-unEPDT {
+	background-color: var(--some-light);
+}
+
+.tierMarkerInProgress-2Tdxjz tierMarker-Vw1C95 desaturate-_Twf3u tierMarkerSelectable-2WVYV- {
+	background-color: var(--some-light);
+}
+
+.theme-dark .paginator-1eqD2g {
+	background-color: var(--more-dark);
+}
+
+.theme-dark .bottomDivider-ZmTm-j {
+	background-color: var(--more-dark);
+	border-bottom-color: var(--background-secondary);
+}
+
+.theme-dark .codeRedemptionRedirect-2hYMSQ {
+	background-color: var(--more-dark);
+	border-color: var(--some-dark);
+}
+
+.lookFilled-1GseHa.select-1Ia3hD {
+	background-color: var(--more-dark);
+	border-color: var(--some-dark);
+}
+
+.keybindShortcut-3zF1P9 span {
+	background-color: var(--some-light);
+}
+
+.cardPrimary-3qRT__ {
+	background-color: var(--more-dark);
+	border-radius: 10px;
+}
+
+.container-2nx-BQ checked-25WXMf {
+	background-color: var(--background-secondary) !important;
+}
+
+.button-TGAkj4[style*="114, 137, 218"], .button-f2h6uQ[style*="114, 137, 218"], .button-38aScr[style*="114, 137, 218"], .container-2nx-BQ:not([style*="background-color: hsl(218, calc(var(--saturation-factor, 1) * 4.6%), 46.9%)"]), .activeButton-LRWFC_ {
+	background-color: var(--more-light) !important;
+}
+
+.container-2nx-BQ:not([style*="rgb(114, 118, 125)"]) .slider-32CRPX svg path, .radioSelection-1UHp0b {
+	fill: var(--more-light);
+}
+.bd-switch input:checked+.bd-switch-body {
+    --switch-color: var(--more-light)
+}
+
+.bd-select {
+	background-color: var(--more-dark);
+}
+
+.bd-number-input {
+    background-color: var(--more-dark);
+}
+
+.theme-dark .keyboardShortcutsModal-2CRmCm {
+	background-color: var(--background-primary);
+}
+
+.theme-dark .noItemsIcon-1rZlXZ {
+	background-color: var(--background-primary);
+}
+
+.theme-dark .noItemsIcon-2OeOld {
+	background-color: var(--background-primary);
+}
