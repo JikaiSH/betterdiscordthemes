@@ -36,6 +36,7 @@
 	--brand-experiment-600: var(--litle-light);
 	--brand-experiment: var(--more-light);
 	--input-background: var(--background-primary);
+	--background-modifier-active: var(--more-dark);
 }
 
 /* watermark */
