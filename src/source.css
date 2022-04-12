@@ -152,10 +152,6 @@ background-color: var(--background-primary);
 	background-color: var(--more-dark);
 }
 
-.side-2ur1Qk .themed-2-lozF.item-3XjbnG:active:not(.disabled-1nofHP), .topPill-3DJJNV .themed-2-lozF.item-3XjbnG:active:not(.disabled-1nofHP) {
-		background-color: var(--some-light);
-}
-
 .ChannelDms-channelmembers-wrap .ChannelDms-channelmembers-header {
 	background: var(--more-dark) !important;
 	border-bottom: var(--some-dark) !important;
@@ -196,9 +192,7 @@ button.button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeSmall-wU2dO-.grow-2
 	background: var(--button-neutral);
 }
 
-button.button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeSmall-wU2dO-.grow-2sR_-F:hover {
-	background: var(--button-neutral-hover);
-}
+
 
 button.button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeSmall-wU2dO-.grow-2sR_-F:active {
 	background: var(--button-neutral-active)
@@ -353,10 +347,6 @@ button.button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeSmall-wU2dO-.grow-2
 
 ::selection {
 	background-color: var(--some-light);
-}
-
-.colorBrand-I6CyqQ:hover {
-	background-color: var(--some-light) !important;
 }
 
 .circleIconButton-1VxDrg svg path {
