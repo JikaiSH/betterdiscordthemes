@@ -323,6 +323,10 @@ button.button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeSmall-wU2dO-.grow-2
     background-color: var(--more-dark);
 }
 
+.bd-button:hover {
+	background-color: var(--litle-light);
+}
+
 .theme-dark .keyboardShortcutsModal-2CRmCm {
 	background-color: var(--background-primary);
 }
