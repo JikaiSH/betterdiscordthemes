@@ -38,8 +38,8 @@
 	--button-secondary-background: var(--some-light); /* Change the secondary button background */
 	--button-secondary-background-hover: var(--litle-light); /* Change the secondary button background when hover */
 	--button-secondary-background-active: var(--more-light); /* Change the secondary button background when active */
-	--background-modifier-hover: var(--more-dark); /* Change the background modifier when hover*/
-	--background-modifier-selected: var(--more-dark) !important; /* Change the background modifier when selected */
+	--background-modifier-hover: var(--litle-light); /* Change the background modifier when hover*/
+	--background-modifier-selected: var(--litle-light) !important; /* Change the background modifier when selected */
     --scrollbar-auto-track: --background-secondary; /* Change the scroll bar background */
     --background-tertiary: var(--some-dark); /* Change the background tertiary color */
 	--background-mentioned: var(--more-dark); /* Change the background mentioned color */
@@ -48,5 +48,5 @@
 	--brand-experiment-600: var(--litle-light); /* Dont take care about it its for fix :active probleme */
 	--brand-experiment: var(--more-light); /* Change blue color */
 	--input-background: var(--background-primary); /* Change some boxs color */
-	--background-modifier-active: var(--more-dark); /* DONT CHANGE IT */
+	--background-modifier-active: var(--litle-light); /* DONT CHANGE IT */
 }

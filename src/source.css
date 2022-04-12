@@ -26,8 +26,8 @@
 	--button-secondary-background: var(--some-light);
 	--button-secondary-background-hover: var(--litle-light);
 	--button-secondary-background-active: var(--more-light);
-	--background-modifier-hover: var(--more-dark);
-	--background-modifier-selected: var(--more-dark) !important;
+	--background-modifier-hover: var(--litle-light);
+	--background-modifier-selected: var(--litle-light) !important;
     --scrollbar-auto-track: --background-secondary;
     --background-tertiary: var(--some-dark);
 	--background-mentioned: var(--more-dark);
@@ -36,7 +36,7 @@
 	--brand-experiment-600: var(--litle-light);
 	--brand-experiment: var(--more-light);
 	--input-background: var(--background-primary);
-	--background-modifier-active: var(--more-dark);
+	--background-modifier-active: var(--litle-light);
 }
 
 /* watermark */
