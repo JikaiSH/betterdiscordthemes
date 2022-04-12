@@ -40,8 +40,8 @@
 	--button-secondary-background-active: var(--more-light); /* Change the secondary button background when active */
 	--background-modifier-hover: var(--more-dark); /* Change the background modifier when hover*/
 	--background-modifier-selected: var(--more-dark) !important; /* Change the background modifier when selected */
-        --scrollbar-auto-track: --background-secondary; /* Change the scroll bar background */
-        --background-tertiary: var(--some-dark); /* Change the background tertiary color */
+    --scrollbar-auto-track: --background-secondary; /* Change the scroll bar background */
+    --background-tertiary: var(--some-dark); /* Change the background tertiary color */
 	--background-mentioned: var(--more-dark); /* Change the background mentioned color */
 	--background-mentioned-hover: var(--background-secondary); /* Change the background mentioned color when hover */
 	--mentioned-bar: #F1C2EF; /* Change the mentioned background color when hover */
