@@ -242,7 +242,7 @@ button.button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeSmall-wU2dO-.grow-2
 /* CHANGE HOMEICON IMAGE */
 .homeIcon-r0w4ny{width:100%;height:100%;background:var(--home-icon) var(--home-position)/var(--home-size) no-repeat}.homeIcon-r0w4ny>path{display:none}.icon-3AqZ2e{background-color:rgba(0,0,0,.3)}.pill-2RsI5Q{overflow:hidden}.item-2LIpTv{width:12px;margin-left:-6px;border-radius:20px;background:var(--some-dark);box-shadow:0 0 20px -1px var(--some-dark)};
 
-/* Server Boost, button, better discord settings, stream active, boxs and billing history */
+/* Server Boost, button, better discord settings, stream active, boxs, selected text and billing history */
 
 .theme-dark .tierBody-1d3UiS {
 	background-color: var(--more-dark);
@@ -345,4 +345,8 @@ button.button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeSmall-wU2dO-.grow-2
 
 .selectorButtonSelected-3cQUnj {
 	background-color: var(--some-dark);
+}
+
+::selection {
+	background-color: var(--some-light);
 }
