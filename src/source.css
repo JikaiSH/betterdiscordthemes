@@ -1,4 +1,8 @@
 /* SOURCE FOR IT WORK */
+
+/* Discord Font */
+@import url("https://x6r.github.io/addons/DiscordFont.css");
+
 :root {
 	--home-icon: url("https://cdn.discordapp.com/attachments/562039492719018047/696805427081642144/discord-logo.png");
 	--home-position: center;
@@ -34,7 +38,24 @@
 	--input-background: var(--background-primary);
 }
 
+/* watermark */
+
+.wordmark-2u86JB svg {
+	width: 0px;
+  }
+  
+  .wordmark-2u86JB::after {
+	position: absolute;
+	font-family: "Discord";
+	content: "PurpleCord";
+	font-size: 15px;
+	background: var(--some-light);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  }
+
 /* Main Color */
+
 .theme-dark {
 	--background-primary: #2f1d3b;
 	--background-secondary: rgb(41, 21, 53);
