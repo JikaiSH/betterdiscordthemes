@@ -14,6 +14,7 @@
 	--more-light: #C67DF5;
 	--litle-light: #5B2878;
 	--some-light: #8A4DB2;
+	--light: rgb(156, 55, 202);
 	--more-dark: rgb(32, 20, 43);
 	--some-dark: rgb(46, 23, 65);
 	--background-modifier-active: var(--background-primary);
@@ -36,7 +37,6 @@
 	--brand-experiment-600: var(--litle-light);
 	--brand-experiment: var(--more-light);
 	--input-background: var(--background-primary);
-	--background-modifier-active: var(--litle-light);
 }
 
 /* watermark */
@@ -48,7 +48,7 @@
   .wordmark-2u86JB::after {
 	position: absolute;
 	font-family: "Discord";
-	content: "PurpleCord";
+	content: "Discord";
 	font-size: 15px;
 	background: var(--some-light);
 	-webkit-background-clip: text;
@@ -154,9 +154,16 @@ background-color: var(--background-primary);
 }
 
 .ChannelDms-channelmembers-wrap .ChannelDms-channelmembers-header {
-	background: var(--more-dark) !important;
+	background: var(--background-secondary) !important;
 	border-bottom: var(--some-dark) !important;
-	--background-modifier-selected: var(--some-light) !important;
+}
+
+.side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG, .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.item-3XjbnG {
+	background-color: var(--some-light) !important;
+}
+
+.side-2ur1Qk .themed-2-lozF.item-3XjbnG, .topPill-3DJJNV .themed-2-lozF.item-3XjbnG:hover {
+	background-color: var(--light) !important;
 }
 
 .theme-dark .default-1Tkeeg {

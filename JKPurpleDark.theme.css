@@ -26,6 +26,7 @@
 	--more-light: #C67DF5; /* Change light color 1*/
 	--litle-light: #5B2878; /* Change light color 2 */
 	--some-light: #8A4DB2; /* Change light color 3 */
+	--light: rgb(156, 55, 202); /* Change light color 4 */
 	--more-dark: rgb(32, 20, 43); /* Change dark color 1 */
 	--some-dark: rgb(46, 23, 65); /* Change dark color 2 */
 	--background-modifier-active: var(--background-primary); /* Change the background modifier color */
