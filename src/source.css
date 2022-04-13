@@ -397,3 +397,7 @@ div#uid_10--1.queryContainer-ZunrLZ.focused-2FU0YH {
 .side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG, .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.item-3XjbnG {
 	background-color: var(--some-light) !important;
 }
+
+div.sprite-2lxwfc {
+	filter: grayscale(0%) !important;
+}
