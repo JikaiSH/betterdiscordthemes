@@ -401,3 +401,7 @@ div#uid_10--1.queryContainer-ZunrLZ.focused-2FU0YH {
 div.sprite-2lxwfc {
 	filter: grayscale(0%) !important;
 }
+
+.emptyChannelIcon-1YdEz2 {
+	background-color: var(--more-dark);
+}
