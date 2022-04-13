@@ -370,3 +370,15 @@ button.button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeSmall-wU2dO-.grow-2
 div#uid_10--1.queryContainer-ZunrLZ.focused-2FU0YH {
 	background-color: var(--background-secondary);
 }
+
+.contents-3ca1mk svg path {
+	fill: rgb(238, 167, 252)
+}
+
+.colorable-3rVGna.primaryDark-2UJt1G, .colorable-3rVGna.primaryDark-2UJt1G .centerIcon-JYpTUi:hover {
+	background-color: var(--background-secondary);
+}
+
+.colorable-3rVGna.primaryDark-2UJt1G.active-3D763s, .colorable-3rVGna.primaryDark-2UJt1G:hover {
+	background-color: var(--some-dark);
+}
