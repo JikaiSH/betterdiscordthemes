@@ -17,7 +17,7 @@
 	--light: rgb(156, 55, 202);
 	--more-dark: rgb(32, 20, 43);
 	--some-dark: rgb(46, 23, 65);
-	--background-modifier-active: var(--background-primary);
+	--background-modifier-active: var(--more-dark);
 	--button-neutral-active: #7D0C7B;
 	--button-neutral-hover: #7D0C7B;
 	--button-neutral: #B01DAA;
@@ -25,16 +25,16 @@
 	--button-positive-background-hover: var(--some-light);
 	--button-positive-background-active: var(--litle-light);
 	--button-secondary-background: var(--some-light);
-	--button-secondary-background-hover: var(--litle-light);
+	--button-secondary-background-hover: var(--some-light);
 	--button-secondary-background-active: var(--more-light);
-	--background-modifier-hover: var(--litle-light);
-	--background-modifier-selected: var(--litle-light) !important;
+	--background-modifier-hover: var(--more-dark);
+	--background-modifier-selected: var(--more-dark) !important;
     --scrollbar-auto-track: --background-secondary;
     --background-tertiary: var(--some-dark);
 	--background-mentioned: var(--more-dark);
 	--background-mentioned-hover: var(--background-secondary);
 	--mentioned-bar: #F1C2EF;
-	--brand-experiment-600: var(--litle-light);
+	--brand-experiment-600: var(--some-light);
 	--brand-experiment: var(--more-light);
 	--input-background: var(--background-primary);
 }
