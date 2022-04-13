@@ -29,24 +29,27 @@
 	--light: rgb(156, 55, 202); /* Change light color 4 */
 	--more-dark: rgb(32, 20, 43); /* Change dark color 1 */
 	--some-dark: rgb(46, 23, 65); /* Change dark color 2 */
-	--background-modifier-active: var(--background-primary); /* Change the background modifier color */
+	--background-modifier-active: var(--more-dark); /* Change the background modifier color */
 	--button-neutral-active: #7D0C7B; /* Change the normal button color when active */
 	--button-neutral-hover: #7D0C7B; /* Change the normal button color when hover */
-	--button-neutral: #B01DAA; /* Change the normal button color */
+	--button-neutral: rgb(228, 52, 222); /* Change the normal button color */
 	--button-positive-background: var(--more-light); /* Change the positive button color */
 	--button-positive-background-hover: var(--some-light); /* Change the positive button color when hove */
 	--button-positive-background-active: var(--litle-light); /* Change the positive button color when active */
 	--button-secondary-background: var(--some-light); /* Change the secondary button background */
-	--button-secondary-background-hover: var(--litle-light); /* Change the secondary button background when hover */
+	--button-secondary-background-hover: var(--some-light); /* Change the secondary button background when hover */
 	--button-secondary-background-active: var(--more-light); /* Change the secondary button background when active */
-	--background-modifier-hover: var(--litle-light); /* Change the background modifier when hover*/
-	--background-modifier-selected: var(--litle-light) !important; /* Change the background modifier when selected */
+	--background-modifier-hover: var(--more-dark); /* Change the background modifier when hover*/
+	--background-modifier-selected: var(--more-dark) !important; /* Change the background modifier when selected */
     --scrollbar-auto-track: --background-secondary; /* Change the scroll bar background */
     --background-tertiary: var(--some-dark); /* Change the background tertiary color */
 	--background-mentioned: var(--more-dark); /* Change the background mentioned color */
 	--background-mentioned-hover: var(--background-secondary); /* Change the background mentioned color when hover */
 	--mentioned-bar: #F1C2EF; /* Change the mentioned background color when hover */
-	--brand-experiment-600: var(--litle-light); /* Dont take care about it its for fix :active probleme */
+	--brand-experiment-600: var(--some-light); /* Dont take care about it its for fix :active probleme */
 	--brand-experiment: var(--more-light); /* Change blue color */
 	--input-background: var(--background-primary); /* Change some boxs color */
+	--search-popout-option-fade-hover: var(--more-dark); /* Change search popout color when hover */
+	--search-popout-option-fade: var(--more-dark); /* Change search popout */
+	--status-danger: var(--more-light); /* Change danger color*/
 }
