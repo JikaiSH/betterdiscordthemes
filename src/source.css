@@ -162,10 +162,6 @@ background-color: var(--background-primary);
 	background-color: var(--some-light) !important;
 }
 
-.side-2ur1Qk .themed-2-lozF.item-3XjbnG, .topPill-3DJJNV .themed-2-lozF.item-3XjbnG:hover {
-	background-color: var(--light) !important;
-}
-
 .theme-dark .default-1Tkeeg {
 	background-color: var(--more-dark)
 }
