@@ -49,5 +49,4 @@
 	--brand-experiment-600: var(--litle-light); /* Dont take care about it its for fix :active probleme */
 	--brand-experiment: var(--more-light); /* Change blue color */
 	--input-background: var(--background-primary); /* Change some boxs color */
-	--background-modifier-active: var(--litle-light); /* DONT CHANGE IT */
 }
