@@ -34,6 +34,7 @@
 	--background-mentioned: var(--more-dark); /* Change the background mentioned color */
 	--background-mentioned-hover: var(--background-secondary); /* Change the background mentioned color when hover */
 	--mentioned-bar: #F1C2EF; /* Change the mentioned background color when hover */
+	--brand-experiment-560: var(--some-light) ;/* Dont take care about it its for fix :hover probleme */
 	--brand-experiment-600: var(--some-light); /* Dont take care about it its for fix :active probleme */
 	--brand-experiment: var(--more-light); /* Change blue color */
 	--input-background: var(--background-primary); /* Change some boxs color */
@@ -195,7 +196,9 @@ button.button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeSmall-wU2dO-.grow-2
 	background: var(--button-neutral);
 }
 
-
+button.button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeSmall-wU2dO-.grow-2sR_-F:hover {
+	background: var(--button-neutral-hover);
+}
 
 button.button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeSmall-wU2dO-.grow-2sR_-F:active {
 	background: var(--button-neutral-active)
