@@ -1,0 +1,407 @@
+/* SOURCE FOR IT WORK */
+
+/* Discord Font */
+@import url("https://x6r.github.io/addons/DiscordFont.css");
+
+:root {
+	--home-icon: url("https://cdn.discordapp.com/attachments/562039492719018047/696805427081642144/discord-logo.png"); /* Change by the link you want*/
+	--home-position: center; /* home button icon position*/
+	--home-size: 40px; /* home button icon size*/
+	--background-primary: #6d2b24; /* Change the primary background color */
+	--background-secondary: #522925; /* Change the secondary background color */
+	--background-secondary-alt: #6d352e; /* Change the secondary-alt background color */
+	--background-floating: #804842; /* Change the floating background color */
+	--more-light: #b96c64; /* Change light color 1*/
+	--litle-light: #8f4e47; /* Change light color 2 */
+	--some-light: #763d37; /* Change light color 3 */
+	--light: rgb(225, 140, 131); /* Change light color 4 */
+	--more-dark: #5a312d; /* Change dark color 1 */
+	--some-dark: #4d241f; /* Change dark color 2 */
+	--background-modifier-active: var(--more-dark); /* Change the background modifier color */
+	--button-neutral-active: #db685c; /* Change the normal button color when active */
+	--button-neutral-hover: #db685c; /* Change the normal button color when hover */
+	--button-neutral: rgb(189, 66, 52); /* Change the normal button color */
+	--button-positive-background: var(--more-light); /* Change the positive button color */
+	--button-positive-background-hover: var(--some-light); /* Change the positive button color when hove */
+	--button-positive-background-active: var(--litle-light); /* Change the positive button color when active */
+	--button-secondary-background: var(--some-light); /* Change the secondary button background */
+	--button-secondary-background-hover: var(--some-light); /* Change the secondary button background when hover */
+	--button-secondary-background-active: var(--more-light); /* Change the secondary button background when active */
+	--background-modifier-hover: var(--more-dark); /* Change the background modifier when hover*/
+	--background-modifier-selected: var(--more-dark) !important; /* Change the background modifier when selected */
+    --scrollbar-auto-track: --background-secondary; /* Change the scroll bar background */
+    --background-tertiary: var(--some-dark); /* Change the background tertiary color */
+	--background-mentioned: var(--more-dark); /* Change the background mentioned color */
+	--background-mentioned-hover: var(--background-secondary); /* Change the background mentioned color when hover */
+	--mentioned-bar: #F1C2EF; /* Change the mentioned background color when hover */
+	--brand-experiment-600: var(--some-light); /* Dont take care about it its for fix :active probleme */
+	--brand-experiment: var(--more-light); /* Change blue color */
+	--input-background: var(--background-primary); /* Change some boxs color */
+	--search-popout-option-fade-hover: var(--more-dark); /* Change search popout color when hover */
+	--search-popout-option-fade: var(--more-dark); /* Change search popout */
+	--status-danger: var(--more-light); /* Change danger color*/
+}
+
+/* watermark */
+
+.wordmark-2u86JB svg {
+	width: 0px;
+  }
+  
+  .wordmark-2u86JB::after {
+	position: absolute;
+	font-family: "Discord";
+	content: "Discord";
+	font-size: 15px;
+	background: var(--some-light);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  }
+
+/* Main Color */
+
+.theme-dark {
+	--background-primary: #793932; /* Change the primary background color */
+	--background-secondary: #693b36; /* Change the secondary background color */
+	--background-secondary-alt: #6d352e; /* Change the secondary-alt background color */
+	--background-floating: #804842; /* Change the floating background color */
+}
+
+.scrollableContainer-15eg7h {
+	border-radius: 25px;
+	border: 1px solid #3c0e09;
+	background-color: #4e231e;
+}
+
+.container-x8Y1ix {
+	background-color: #3c0e09;
+}
+
+#app-mount .scroller-3X7KbA {
+	background-color: #1d0f0e;
+}
+
+.scroller-1bVxF5 {	background-color: #1d0f0e;
+border-radius: 10px;}
+
+.focused-3qFvc8 { border-radius: 10px;}
+
+.colorDefault-CDqZdO.focused-3qFvc8 { 	background-color: #360d0a !important;
+}
+
+.tabBody-2dgbAs {
+background-color: var(--background-primary);
+}
+
+.contentRegionScroller-2_GT_N {background-color: var(--background-primary);}
+
+.container-2McqkF {
+	background: var(--background-secondary) !important;
+}
+
+.searchBar-2aylmZ {background: var(--background-secondary);}
+.container-2oNtJn {background: var(--background-secondary);}
+.medium-2NClDM {background: var(--background-secondary);}
+
+.input-3r5zZY {
+	background-color: var(--background-primary);
+	border: 1px solid var(--background-secondary-alt);
+}
+
+.contentDefault-17ewQQ {	background-color: var(--background-primary);}
+.content-vQY7Mf {	background-color: var(--background-primary);}
+.selected-1Drb7Z {
+	background: var(--background-primary);
+}
+
+#app-mount .body-2wLx-E,
+#app-mount .footer-1N3bR3 {
+	background-color: var(--background-primary);
+}
+
+.tile-2TcwiO {
+	background-color: var(--background-primary) !important;
+	border: 1px solid var(--background-primary);
+}
+
+.content-1gYQeQ { background-color: #3d1f1c;}
+
+.autocompleteInner-y1mjDl autocompleteInner-2tOQrf {
+	background-color: var(--background-primary);
+}
+
+#app-mount .pageWrapper-2PwDoS {
+	background-color: var(--background-primary);
+}
+.categoryItem-1QIroW.selectedCategoryItem-FHKU_o .itemInner-gPkiWb {
+	background-color: var(--background-secondary);
+}
+.search-25t1e9 .searchBox-31Zv9h {
+	background-color: var(--background-secondary);
+}
+
+.autocomplete-3NRXG8 {
+	background-color: var(--more-dark) !important;
+}
+
+.theme-dark .selected-3H3-RC {
+	background-color: var(--some-light);
+}
+
+.fieldButton-14lHvK button-f2h6uQ lookFilled-yCfaCM colorPrimary-2AuQVo sizeSmall-wU2dO- grow-2sR_-F {
+		background-color: var(--some-light);
+}
+
+.theme-dark .root-g14mjS {
+	background-color: var(--more-dark);
+}
+
+.ChannelDms-channelmembers-wrap .ChannelDms-channelmembers-header {
+	background: var(--background-primary) !important;
+	border-bottom: var(--some-dark) !important;
+}
+
+.theme-dark .default-1Tkeeg {
+	background-color: var(--more-dark)
+}
+
+.jumpToPresentBar-1cEnH0 {
+	visibility: hidden;
+	bottom: 15px;
+  }
+  .jumpToPresentBar-1cEnH0 .barButtonIcon-bMvzp2 {
+	visibility: visible;
+	padding: 12px;
+	background-color: var(--some-light);
+	border-radius: 50%;
+	margin-bottom: 2em;
+  }
+
+ .userPopout-2j1gM4 {
+	background-color: var(--background-primary)
+}
+
+.bodyInnerWrapper-2bQs1k {
+	background-color: var(--background-secondary);
+	border-radius: 10px
+}
+
+.automodMessage-265YwJ:before, .ephemeral-2nDdnn:before, .mentioned-Tre-dv:before, .replying-eZ7p5z:before {
+	background-color: var(--mentioned-bar)
+}
+
+  /* Blue button now better */
+button.button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeSmall-wU2dO-.grow-2sR_-F {
+	background: var(--button-neutral);
+}
+
+
+
+button.button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeSmall-wU2dO-.grow-2sR_-F:active {
+	background: var(--button-neutral-active)
+}
+
+/* Footer */
+.theme-dark .footer-31IekZ {
+	background-color: var(--background-secondary);
+}
+
+/* When click on a server, hover or unread messages */
+.scroller-3X7KbA  .pill-2RsI5Q .item-2LIpTv{
+    background-color: var(--more-light);
+}
+
+/* support for my server count plugin ! */
+  .guildSeparator-a4uisj {
+	background-color: var(--some-dark);
+}
+
+#JKServerCount {
+	color: var(--more-light) !important;
+}
+
+/* Purple when selected */
+.option-1QI4c9:hover,
+.lookFilled-1Gx00P.colorBrand-3pXr91,
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
+.wrapper-3kah-n:hover .childWrapper-1j_1ub,
+.barFill-2Bh7CX,
+.colorDefault-CDqZdO.focused-3qFvc8,
+.headerPlaying-j0WQBV,
+.topSectionPlaying-1J5E4n,
+.lookFilled-yCfaCM.colorGreen-29iAKY,
+.lookFilled-1Gx00P.colorGreen-29iAKY,
+#app-mount .wrapper-1ZcZW-:hover,
+.circleIconButton-1VxDrg.selected-2r1Hvo,
+.newMessagesBar-1hF-9G,
+.questionMark-3V9mGJ,
+.bd-button,
+.bd-addon-views .bd-view-button.selected {
+	background-color: var(--some-light);
+}
+
+/* CHANGE HOMEICON IMAGE */
+.homeIcon-r0w4ny{width:100%;height:100%;background:var(--home-icon) var(--home-position)/var(--home-size) no-repeat}.homeIcon-r0w4ny>path{display:none}.icon-3AqZ2e{background-color:rgba(0,0,0,.3)}.pill-2RsI5Q{overflow:hidden}.item-2LIpTv{width:12px;margin-left:-6px;border-radius:20px;background:var(--some-dark);box-shadow:0 0 20px -1px var(--some-dark)};
+
+/* Server Boost, button, better discord settings, search popout, svg color, stream active, boxs, selected text and billing history */
+
+.theme-dark .tierBody-1d3UiS {
+	background-color: var(--more-dark);
+}
+
+.theme-dark .tierHeaderLocked-3ItHYn {
+	background-color: var(--more-dark);
+}
+
+.perksModalContentWrapper-3RHugb {
+	background-color: var(--background-secondary);
+}
+
+.theme-dark .tierBody-3ju-rc {
+	background-color: var(--background-primary);
+}
+
+.theme-dark .perk-19D_HN {
+	background-color: var(--more-dark);
+}
+
+.theme-dark .barBackground-unEPDT {
+	background-color: var(--some-light);
+}
+
+.tierMarkerInProgress-2Tdxjz tierMarker-Vw1C95 desaturate-_Twf3u tierMarkerSelectable-2WVYV- {
+	background-color: var(--some-light);
+}
+
+.theme-dark .paginator-1eqD2g {
+	background-color: var(--more-dark);
+}
+
+.theme-dark .bottomDivider-ZmTm-j {
+	background-color: var(--more-dark);
+	border-bottom-color: var(--background-secondary);
+}
+
+.theme-dark .codeRedemptionRedirect-2hYMSQ {
+	background-color: var(--more-dark);
+	border-color: var(--some-dark);
+}
+
+.lookFilled-1GseHa.select-1Ia3hD {
+	background-color: var(--more-dark);
+	border-color: var(--some-dark);
+}
+
+.keybindShortcut-3zF1P9 span {
+	background-color: var(--some-light);
+}
+
+.cardPrimary-3qRT__ {
+	background-color: var(--more-dark);
+	border-radius: 10px;
+}
+
+.container-2nx-BQ checked-25WXMf {
+	background-color: var(--background-secondary) !important;
+}
+
+.button-TGAkj4[style*="114, 137, 218"], .button-f2h6uQ[style*="114, 137, 218"], .button-38aScr[style*="114, 137, 218"], .container-2nx-BQ:not([style*="background-color: hsl(218, calc(var(--saturation-factor, 1) * 4.6%), 46.9%)"]), .activeButton-LRWFC_ {
+	background-color: var(--more-light) !important;
+}
+
+.container-2nx-BQ:not([style*="rgb(114, 118, 125)"]) .slider-32CRPX svg path, .radioSelection-1UHp0b {
+	fill: var(--more-light);
+}
+.bd-switch input:checked+.bd-switch-body {
+    --switch-color: var(--more-light)
+}
+
+.bd-select {
+	background-color: var(--more-dark);
+}
+
+.bd-number-input {
+    background-color: var(--more-dark);
+}
+
+.bd-button:hover {
+	background-color: var(--litle-light);
+}
+
+.theme-dark .keyboardShortcutsModal-2CRmCm {
+	background-color: var(--background-primary);
+}
+
+.theme-dark .noItemsIcon-1rZlXZ {
+	background-color: var(--background-primary);
+}
+
+.theme-dark .noItemsIcon-2OeOld {
+	background-color: var(--background-primary);
+}
+
+.iconBackgroundTierNone-3M21Zn, .iconBackgroundTierOne-1S68CI, .iconBackgroundTierThree-2hfNBO, .iconBackgroundTierTwo-2XoNXD {
+	color: var(--some-light) !important;
+}
+
+.selectorButtonSelected-3cQUnj {
+	background-color: var(--some-dark);
+}
+
+::selection {
+	background-color: var(--some-light);
+}
+
+.circleIconButton-1VxDrg svg path {
+	fill: var(--more-light);
+}
+
+.childWrapper-1j_1ub svg path {
+	fill: var(--more-light);
+}
+
+.theme-dark .searchAnswer-23w-CH, .theme-dark .searchFilter-2UfsDk {
+	background-color: var(--some-light);
+}
+
+div#uid_10--1.queryContainer-ZunrLZ.focused-2FU0YH {
+	background-color: var(--background-secondary);
+}
+
+.contents-3ca1mk svg path {
+	fill: rgb(238, 167, 252)
+}
+
+.colorable-3rVGna.primaryDark-2UJt1G, .colorable-3rVGna.primaryDark-2UJt1G .centerIcon-JYpTUi:hover {
+	background-color: var(--background-secondary);
+}
+
+.colorable-3rVGna.primaryDark-2UJt1G.active-3D763s, .colorable-3rVGna.primaryDark-2UJt1G:hover {
+	background-color: var(--some-dark);
+}
+
+.ChannelDms-channelmembers-wrap .ChannelDms-channelmembers-header {
+	background: var(--more-dark) !important;
+	border-bottom: var(--some-dark) !important;
+}
+
+.side-2ur1Qk .themed-2-lozF.item-3XjbnG:hover:not(.disabled-1nofHP), .topPill-3DJJNV .themed-2-lozF.item-3XjbnG:hover:not(.disabled-1nofHP) {
+	background-color: var(--background-modifier-hover) !important;
+}
+
+.side-2ur1Qk .themed-2-lozF.item-3XjbnG:hover:not(.disabled-1nofHP), .topPill-3DJJNV .themed-2-lozF.item-3XjbnG:hover:not(.disabled-1nofHP) {
+	background-color: var(--background-modifier-hover) !important;
+}
+
+
+.side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG, .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.item-3XjbnG {
+	background-color: var(--more-dark) !important;
+}
+
+div.sprite-2lxwfc {
+	filter: grayscale(0%) !important;
+}
+
+.emptyChannelIcon-1YdEz2 {
+	background-color: var(--more-dark);
+}

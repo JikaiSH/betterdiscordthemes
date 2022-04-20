@@ -1,0 +1,55 @@
+/**
+ * @name JKSalmonDark
+ * @author JikaiSH
+ * @version 1.0.0
+ * @description A theme for poeple who love purple !
+ * @source https://github.com/JikaiSH/betterdiscordthemes
+ * @website https://jikaish.tk
+ * @invite 52Nc5Qry4t
+ */
+ 
+/* DO NOT DELETE THIS IMPORT */
+@import url("https://jikaish.github.io/betterdiscordthemes/src/salmon-source.css");
+
+/* IMPORT YOU CAN DELETE WITHOUT PROBLEME */
+@import url("https://lavender-discord.github.io/Lavender/modules/addons/settings-icons.css");
+
+/* MAIN COD */
+:root {
+	--home-icon: url("https://cdn.discordapp.com/attachments/562039492719018047/696805427081642144/discord-logo.png"); /* Change by the link you want*/
+	--home-position: center; /* home button icon position*/
+	--home-size: 40px; /* home button icon size*/
+	--background-primary: #793932; /* Change the primary background color */
+	--background-secondary: #693b36; /* Change the secondary background color */
+	--background-secondary-alt: #6d352e; /* Change the secondary-alt background color */
+	--background-floating: #804842; /* Change the floating background color */
+	--more-light: #C67DF5; /* Change light color 1*/
+	--litle-light: #5B2878; /* Change light color 2 */
+	--some-light: #8A4DB2; /* Change light color 3 */
+	--light: rgb(156, 55, 202); /* Change light color 4 */
+	--more-dark: #5a312d; /* Change dark color 1 */
+	--some-dark: #4d241f; /* Change dark color 2 */
+	--background-modifier-active: var(--more-dark); /* Change the background modifier color */
+	--button-neutral-active: #7D0C7B; /* Change the normal button color when active */
+	--button-neutral-hover: #7D0C7B; /* Change the normal button color when hover */
+	--button-neutral: rgb(228, 52, 222); /* Change the normal button color */
+	--button-positive-background: var(--more-light); /* Change the positive button color */
+	--button-positive-background-hover: var(--some-light); /* Change the positive button color when hove */
+	--button-positive-background-active: var(--litle-light); /* Change the positive button color when active */
+	--button-secondary-background: var(--some-light); /* Change the secondary button background */
+	--button-secondary-background-hover: var(--some-light); /* Change the secondary button background when hover */
+	--button-secondary-background-active: var(--more-light); /* Change the secondary button background when active */
+	--background-modifier-hover: var(--more-dark); /* Change the background modifier when hover*/
+	--background-modifier-selected: var(--more-dark) !important; /* Change the background modifier when selected */
+    --scrollbar-auto-track: --background-secondary; /* Change the scroll bar background */
+    --background-tertiary: var(--some-dark); /* Change the background tertiary color */
+	--background-mentioned: var(--more-dark); /* Change the background mentioned color */
+	--background-mentioned-hover: var(--background-secondary); /* Change the background mentioned color when hover */
+	--mentioned-bar: #F1C2EF; /* Change the mentioned background color when hover */
+	--brand-experiment-600: var(--some-light); /* Dont take care about it its for fix :active probleme */
+	--brand-experiment: var(--more-light); /* Change blue color */
+	--input-background: var(--background-primary); /* Change some boxs color */
+	--search-popout-option-fade-hover: var(--more-dark); /* Change search popout color when hover */
+	--search-popout-option-fade: var(--more-dark); /* Change search popout */
+	--status-danger: var(--more-light); /* Change danger color*/
+}
