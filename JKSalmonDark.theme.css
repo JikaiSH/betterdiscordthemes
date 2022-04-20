@@ -19,20 +19,20 @@
 	--home-icon: url("https://cdn.discordapp.com/attachments/562039492719018047/696805427081642144/discord-logo.png"); /* Change by the link you want*/
 	--home-position: center; /* home button icon position*/
 	--home-size: 40px; /* home button icon size*/
-	--background-primary: #793932; /* Change the primary background color */
-	--background-secondary: #693b36; /* Change the secondary background color */
+	--background-primary: #6d2b24; /* Change the primary background color */
+	--background-secondary: #522925; /* Change the secondary background color */
 	--background-secondary-alt: #6d352e; /* Change the secondary-alt background color */
 	--background-floating: #804842; /* Change the floating background color */
-	--more-light: #C67DF5; /* Change light color 1*/
-	--litle-light: #5B2878; /* Change light color 2 */
-	--some-light: #8A4DB2; /* Change light color 3 */
-	--light: rgb(156, 55, 202); /* Change light color 4 */
+	--more-light: #b96c64; /* Change light color 1*/
+	--litle-light: #8f4e47; /* Change light color 2 */
+	--some-light: #763d37; /* Change light color 3 */
+	--light: rgb(225, 140, 131); /* Change light color 4 */
 	--more-dark: #5a312d; /* Change dark color 1 */
 	--some-dark: #4d241f; /* Change dark color 2 */
 	--background-modifier-active: var(--more-dark); /* Change the background modifier color */
-	--button-neutral-active: #7D0C7B; /* Change the normal button color when active */
-	--button-neutral-hover: #7D0C7B; /* Change the normal button color when hover */
-	--button-neutral: rgb(228, 52, 222); /* Change the normal button color */
+	--button-neutral-active: #db685c; /* Change the normal button color when active */
+	--button-neutral-hover: #db685c; /* Change the normal button color when hover */
+	--button-neutral: rgb(189, 66, 52); /* Change the normal button color */
 	--button-positive-background: var(--more-light); /* Change the positive button color */
 	--button-positive-background-hover: var(--some-light); /* Change the positive button color when hove */
 	--button-positive-background-active: var(--litle-light); /* Change the positive button color when active */
@@ -45,11 +45,13 @@
     --background-tertiary: var(--some-dark); /* Change the background tertiary color */
 	--background-mentioned: var(--more-dark); /* Change the background mentioned color */
 	--background-mentioned-hover: var(--background-secondary); /* Change the background mentioned color when hover */
-	--mentioned-bar: #F1C2EF; /* Change the mentioned background color when hover */
+	--mentioned-bar: #f9641e; /* Change the mentioned background color when hover */
+	--brand-experiment-560: var(--some-light) ;/* Dont take care about it its for fix :hover probleme */
 	--brand-experiment-600: var(--some-light); /* Dont take care about it its for fix :active probleme */
 	--brand-experiment: var(--more-light); /* Change blue color */
 	--input-background: var(--background-primary); /* Change some boxs color */
 	--search-popout-option-fade-hover: var(--more-dark); /* Change search popout color when hover */
 	--search-popout-option-fade: var(--more-dark); /* Change search popout */
 	--status-danger: var(--more-light); /* Change danger color*/
+	--scrollbar-thin-thumb: var(--background-secondary-alt); /* Change scrollbar color */
 }
