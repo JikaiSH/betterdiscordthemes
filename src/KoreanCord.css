@@ -1,5 +1,23 @@
-:root { 
+/**
+ * @name KoreanCord
+ * @description Discord but korean !!!
+ * @author Pikai
+ * @version 1.0.0
+ * @authorId 792331345917509652
+ * @invite Jx3TjNS
+
+ * @website https://mwittrien.github.io/
+ */
+
+/* To change stuff like the colors, transparency and background image, change the variables inside the root {}, do NOT change the @import url() */
+
+
+:root {
+--status-warning: #ebbd74 !important;
+        --button-positive-background: rgb(218,195,218)!important;
+        --brand-experiment: #ed92ea;
     --channels-default: #d2d2d2 !important;
+--button-positive-background-hover: rgb(201,159,201) !important;
 	--transparencycolor:			0,0,0;
 	--transparencyalpha:			0.15;
 	--messagetransparency:			0.5;
@@ -42,7 +60,6 @@
 	--bdfdb-yellow:					rgb(var(--warningcolor));
 	--bdfdb-red:					rgb(var(--dangercolor));
 }
-
 .theme-light, .theme-dark {
 	--background-floating: rgb(25, 13, 32) !important;
 	--text-positive: rgb(var(--successcolor));
@@ -99,6 +116,10 @@ html {
 	color: var(--header-primary);
 }
 
+
+.lookFilled-yCfaCM.colorBrand-I6CyqQ:hover {
+ background-color: #ed92ea;
+}
 
 /* ~~~~		0.		TABLE OF CONTENTS				~~~~ */
 /*
@@ -2252,13 +2273,13 @@ body::after {
 }
 #app-mount .side-2ur1Qk .themed-2-lozF.item-3XjbnG:hover:not(.disabled-1nofHP),		/*		sideitems					*/
 #app-mount .topPill-3DJJNV .themed-2-lozF.item-3XjbnG:hover:not(.disabled-1nofHP) {	/*		tabitems					*/
-	background-color: rgba(var(--transparencycolor), .2);
+        background-color: rgba(160,160,160, 0.3);
 }
 #app-mount .side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG,
 #app-mount .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.item-3XjbnG,
 #app-mount .side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG:hover,
 #app-mount .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.item-3XjbnG:hover {
-	background-color: rgb(var(--accentcolor));
+	background-color: rgba(160,160,160, 0.4);
 	color: #fff;
 	text-shadow: 1px 1px var(--textshadow);
 }
@@ -4571,7 +4592,7 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {	/* rolesettings			addr
 }
 
 .container-2nx-BQ {											/* checkboxswitch											*/
-	background-color: rgba(var(--transparencycolor), .3) !important;
+	background-color: rgba(87,87,87, .3) !important;
 }
 .container-2nx-BQ rect[fill] {
 	fill: var(--header-primary) !important;
