@@ -1,10 +1,10 @@
 /**
- * @name JKSalmonDark
- * @author JikaiSH
+ * @name PKSalmonDark
+ * @author Pikai
  * @version 0.0.1
  * @description A theme for poeple who love salmon color !
- * @source https://github.com/JikaiSH/betterdiscordthemes
- * @website https://jikaish.tk
+ * @source https://github.com/pikaioff/betterdiscordthemes
+ * @website https://pikaioff.tk
  * @invite 52Nc5Qry4t
  */
  
@@ -41,8 +41,8 @@
 	--button-secondary-background-active: var(--more-light); /* Change the secondary button background when active */
 	--background-modifier-hover: var(--more-dark); /* Change the background modifier when hover*/
 	--background-modifier-selected: var(--more-dark) !important; /* Change the background modifier when selected */
-    --scrollbar-auto-track: --background-secondary; /* Change the scroll bar background */
-    --background-tertiary: var(--some-dark); /* Change the background tertiary color */
+        --scrollbar-auto-track: --background-secondary; /* Change the scroll bar background */
+        --background-tertiary: var(--some-dark); /* Change the background tertiary color */
 	--background-mentioned: var(--more-dark); /* Change the background mentioned color */
 	--background-mentioned-hover: var(--background-secondary); /* Change the background mentioned color when hover */
 	--mentioned-bar: #f9641e; /* Change the mentioned background color when hover */
