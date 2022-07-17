@@ -454,7 +454,7 @@ body::after {
 
 .guildIconUnavailable-3IYARS,								/* guilderror			miniicon							*/
 .guildsError-YJjW3A {										/* guilderror			innerwrap							*/
-	background-color: rgba(var(--dangercolor)),.3);
+	background-color: rgba(var(--dangercolor),.3);
 }
 
 .dragInner-Oq_toX {											/* dragplaceholder											*/
@@ -1749,7 +1749,7 @@ body::after {
 	background-color: rgba(var(--transparencycolor), .6);
 }
 .controlButton-2PMNom.leaveButton-2YnTyt {
-	background-color: rgba(var(--dangercolor)),.5);
+	background-color: rgba(var(--dangercolor),.5);
 }
 .controlButton-2PMNom.leaveButton-2YnTyt:hover {
 	background-color: rgb(var(--dangercolor));
@@ -4467,7 +4467,7 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {	/* rolesettings			addr
 }
 
 #app-mount .borderPrimary-1ygM7_ {
-	border-color: rgb(var(--textdarkest)); !important;
+	border-color: rgb(var(--textdarkest)) !important;
 }
 
 #app-mount .lookInverted-2mDUMi.colorTransparent-13Bvvi .spinnerItem-3dCJpG {
